@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: smaller;
+    padding: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    color: #be7429;
+    font-weight: normal;
+    padding: 5px;
+}
+
+fieldset label {
+    display: block;
+    border-radius: 1em;
+
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
