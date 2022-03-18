@@ -6,8 +6,8 @@ botaoPostarReferencia.addEventListener('click', function(event){
     event.preventDefault()
 
     let post = {
-        titulo: tituloPostReferencia,
-        texto: textoPostReferencia,
-        imagem: imgPostReferencia
+        titulo: tituloPostReferencia.value,
+        texto: textoPostReferencia.value,
+        imagem: imgPostReferencia.value
     }
 })
