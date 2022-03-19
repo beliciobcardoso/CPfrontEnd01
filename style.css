@@ -8,15 +8,40 @@
 }
 
 body{
+    background-color: #62ACEF;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
     display: flex;
     justify-content: center;
-    background-color: #473f3f;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.post{
+    width: 340px; 
+}
+
+.post img{
+    height: 250px;
+}
+
+.post p{
+    text-align: justify;
     color: #fff;
 }
 
 input{
     border: 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 fieldset{
@@ -31,7 +56,7 @@ fieldset:nth-child(1){
     justify-content: space-around;
     width: 50rem;
     height: 5rem;
-    background-color: #d1cdcd;
+    background-color: #235F98;
     color: black;
     font-weight: 900;
     margin: 1rem 0;
@@ -39,16 +64,55 @@ fieldset:nth-child(1){
 }
 
 #botaoPostar{
-  background-color: #d1cdcd;
-  width: 15rem;
-  font-size: 1.5rem;
+  background-color: #235F98;
+  font-size: 1rem;
   font-weight: 900;
   border-radius: 20px;
   border: 0;
-  padding: 5px 0px;
+  padding: 8px 30px;
   cursor: pointer;
 }
 
 #botaoPostar:hover{
-    background-color: #77ee59;
+    background-color: #093F6B;
+    color:#fff ;
+}
+
+footer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 815px) {
+
+    fieldset:nth-child(1){
+     flex-direction: column;
+     width: auto;
+     height: auto;
+     align-items: flex-end;
+     padding: 10px 10px;
+    }
+
+    label{
+        margin:  15px;
+    }
+
+    input{
+        margin-bottom: 5px;
+        width: 500px;
+    }
+
+    #botaoPostar{        
+        width: 7rem;
+        font-size: .8rem;     
+      }
+}
+
+@media (max-width: 636px) { 
+
+   input{
+        width: 200px;
+    }
+
 }
