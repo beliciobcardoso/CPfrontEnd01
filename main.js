@@ -41,5 +41,3 @@ function init(post, posts) {
         `
     }
 }
-
-
