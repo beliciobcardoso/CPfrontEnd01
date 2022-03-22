@@ -31,7 +31,6 @@ section {
 }
 
 .post img{
-    height: 250px;
     width: 340px;
 }
 
@@ -65,12 +64,12 @@ fieldset{
 fieldset:nth-child(1){
     align-items: center;
     justify-content: space-around;
-    width: 50rem;
+    width: 60rem;
     height: 5rem;
     background-color: #235F98;
-    color: black;
     font-weight: 900;
     margin: 1rem 0;
+    padding: 0 3px;
     border-radius: 10px;
 }
 
@@ -96,6 +95,12 @@ footer {
     align-items: center;
     font-size: 20px;
     font-weight: 900;
+}
+
+@media (max-width: 962px) {
+    fieldset:nth-child(1){
+        width: 50rem;
+    }
 }
 
 @media (max-width: 815px) {
