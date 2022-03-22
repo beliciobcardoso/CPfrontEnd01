@@ -38,6 +38,7 @@ section {
 .post p{
     text-align: justify;
     color: #fff;
+    word-break: break-all;
 }
 
 input{
